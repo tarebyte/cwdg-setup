@@ -12,11 +12,10 @@ Beginner Setup for the Collegiate Web Developers
 
 ###Requirements
 
-If you are using any Mac computer running OSX please have the following installed:
+If you are running a machine with OSX, please have the following
 
-    [XCode Command Line Tools](http://developer.apple.com/downloads/)
-
-You also need to be a(registered Apple Developer)[https://developer.apple.com/programs/register/] which is free.
+* [An Apple Developer Account](https://developer.apple.com/programs/register/)
+* [XCode Command Line Tools](http://developer.apple.com/downloads/)
 
 For any flavor of Linux please make sure you have the following packages:
 
@@ -34,11 +33,11 @@ Open your terminal and run the following:
 
 ###Installing
 
-Open your terminal inside this directory:
+Open the directory of the project:
 
     cd cwdg-setup
 
-Then Run:
+Then run:
 
     chmod +x install
     ./install
