@@ -35,7 +35,7 @@ git config --global alias.hist "log --pretty=format:\"%h %ad | %s%d [%an]\" --gr
 git config --global alias.type "cat-file -t"
 git config --global alias.dump "cat-file -p"
 
-# Setup the OSX Keychain
+#-- Setup the OSX Keychain --#
 
 # Download the helper
 curl -s -O http://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
