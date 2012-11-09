@@ -9,6 +9,7 @@ Beginner Setup for the Collegiate Web Developers
 * Ruby
 
 ##Getting Started
+Please note that this is a for Mac OSX only!!!! If you try to run this on any other system you're going to have a bad time :-(
 
 ###Requirements
 
@@ -16,14 +17,6 @@ If you are running a machine with OSX, please have the following
 
 * [An Apple Developer Account](https://developer.apple.com/programs/register/)
 * [XCode Command Line Tools](http://developer.apple.com/downloads/)
-
-For any flavor of Linux please make sure you have the following packages:
-
-    curl
-
-If you are using Ubuntu you would type the following into your terminalIf you are using Ubuntu you would type the following into your terminal:
-
-    sudo apt-get install curl
 
 ###Clone the Repo
 
@@ -42,4 +35,4 @@ Then run:
     chmod +x install
     ./install
 
-And that's it, the rest of the installation will take care of itseAnd that's it, the rest of the installation will take care of itself!
+And that's it, the rest of the installation will take care of it and that's it, the rest of the installation will take care of itself!
