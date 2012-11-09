@@ -6,8 +6,10 @@ echo Locating Stable RVM
 #-- Install Homebrew --#
 ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
-#-- Install useful developer tools used from Homebrew --#
-brew install {git, pbcopy}
+#-- Set up Homebrew and install useful formulas --#
+echo Calling the Doctor...
+brew doctor
+brew install {git, emacs, vim} #Install formulas
 
 #-- Set up Git, Github, Auth and Aliases --#
 clear
