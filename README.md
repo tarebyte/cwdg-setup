@@ -2,6 +2,7 @@ Beginner Setup for the Collegiate Web Developers
 ==========
 
 ##Description
+This is an install script for our new members, this sets up a lot of things that are normally a pain to do. 
 
 ##Technologies used
 
