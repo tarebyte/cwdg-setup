@@ -1,16 +1,13 @@
-#-- Store current path --#
-cwdg_setup_path=$(pwd)
-
 #-- Install RVM and Get Ruby Setup --#
-#clear
-#echo Locating Stable RVM
-#\curl -L https://get.rvm.io | bash -s stable --ruby
+clear
+echo Locating Stable RVM
+\curl -L https://get.rvm.io | bash -s stable --ruby
 
 #-- Install Homebrew --#
-#ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
 #-- Install useful developer tools used from Homebrew --#
-#brew install {git, pbcopy}
+brew install {git, pbcopy}
 
 #-- Set up Git, Github, Auth and Aliases --#
 clear
