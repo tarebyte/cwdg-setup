@@ -21,7 +21,11 @@ If you are running a machine with OSX, please have the following
 
 ###Clone the Repo
 
-Open your terminal and run the following:
+You can click on "Clone in Mac" and clone by using the new [GitHub App](http://mac.github.com/).
+
+OR
+
+You can open your terminal and run the following:
 
     git clone https://github.com/tarebyte/cwdg-setup.git
 
@@ -33,7 +37,6 @@ Open the directory of the project:
 
 Then run:
 
-    chmod +x install
     ./install
 
 And that's it, the rest of the installation will take care of it and that's it, the rest of the installation will take care of itself!
