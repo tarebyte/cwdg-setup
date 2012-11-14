@@ -36,6 +36,16 @@ Open the directory of the project:
 
 Then run:
 
-    ./install
+    ./install.sh
 
 And that's it, the rest of the installation will take care of it and that's it, the rest of the installation will take care of itself!
+
+##What this installs / sets up
+
+* [RVM](https://rvm.io/)
+* [HomeBrew](http://mxcl.github.com/homebrew/)
+  * Version Control
+    * [Git](http://git-scm.com/)
+  * Editors
+    * [MacVim](http://code.google.com/p/macvim/)
+* Http Authentication for [Github](https://help.github.com/articles/set-up-git)
