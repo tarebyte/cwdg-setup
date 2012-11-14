@@ -1,7 +1,7 @@
 Beginner Setup for the Collegiate Web Developers
 ==========
 
-Author: Mark Tareshawty
+Author: Mark Tareshawty <br />
 Email: tarebyte@gmail.com
 
 ##Description
