@@ -18,20 +18,15 @@ Please note that this is a for Mac OSX only!!!! If you try to run this on any ot
 
 ###Requirements
 
-If you are running a machine with OSX, please have the following
+####Xcode
+If you are running a machine with OSX, please install XCode through the App Store and Install the Command Line Tools.
 
-* [An Apple Developer Account](https://developer.apple.com/programs/register/)
-* [XCode Command Line Tools](http://developer.apple.com/downloads/)
+####A Github Account
+Please sign up for Github, it's free and it's awesome
 
 ###Clone the Repo
 
 You can click on "Clone in Mac" and clone by using the new [GitHub App](http://mac.github.com/).
-
-OR
-
-You can open your terminal and run the following:
-
-    git clone https://github.com/tarebyte/cwdg-setup.git
 
 ###Installing
 
