@@ -1,8 +1,12 @@
 Beginner Setup for the Collegiate Web Developers
 ==========
 
+:Author: Mark Tareshawty
+:Email: tarebyte@gmail.com
+
 ##Description
-This is an install script for our new members, this sets up a lot of things that are normally a pain to do. 
+This is a beginner web development envirorment for our new members of the [Collegiate Web Developers](http://cwdg.github.com) 
+who use OSX as their primary operationg system.
 
 ##Technologies used
 
