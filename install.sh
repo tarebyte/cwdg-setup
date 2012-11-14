@@ -55,7 +55,7 @@ git config --global github.user "$username"
 echo "Please enter your email from your Github account" && read email
 git config --global user.email "$email"
 
-# Set aliases from Git Emmersion
+# Set aliases from Git Emmersion http://gitimmersion.com/
 git config --global alias.co "checkout"
 git config --global alias.ci "commit"
 git config --global alias.st "status"
@@ -64,9 +64,7 @@ git config --global alias.hist "log --pretty=format:\"%h %ad | %s%d [%an]\" --gr
 git config --global alias.type "cat-file -t"
 git config --global alias.dump "cat-file -p"
 
-#-- Setup the OSX Keychain --#
-
-# Download the helper
+# Download the the OSX Keychain 
 curl -s -O http://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
 
 # Fix the permissions on the file so it can be run
@@ -74,7 +72,7 @@ chmod u+x git-credential-osxkeychain
 
 # Parse the path of git so that you put it in the correct folder
 which_git=$(which git) # Get the full git path
-which_git_path_length=$(expr ${#which_git} - 4) # Remove the /bin
+which_git_path_length=$(expr ${#which_git} - 4) # Remove the /git
 git_path=${which_git:0:which_git_path_length} # Create new path from substing
 
 # move the git-credential-osxkeychain to the correct path
