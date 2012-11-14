@@ -1,8 +1,18 @@
 Beginner Setup for the Collegiate Web Developers
 ==========
 
-Author: Mark Tareshawty <br />
-Email: tarebyte@gmail.com
+<table>
+  <tr>
+    <td> Author: </td>
+    <td> Mark Tareshawty </td>
+  </tr>
+  
+  <tr>
+    <td> Email: </td>
+    <td> <a href="mailto:tarebyte@gmail.com">tarebyte@gmail.com </td>
+  </tr>
+</table>
+
 
 ##Description
 This is a beginner web development envirorment for our new members of the [Collegiate Web Developers](http://cwdg.github.com) 
