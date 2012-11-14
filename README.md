@@ -1,8 +1,8 @@
 Beginner Setup for the Collegiate Web Developers
 ==========
 
-:Author: Mark Tareshawty
-:Email: tarebyte@gmail.com
+Author: Mark Tareshawty
+Email: tarebyte@gmail.com
 
 ##Description
 This is a beginner web development envirorment for our new members of the [Collegiate Web Developers](http://cwdg.github.com) 
