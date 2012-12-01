@@ -19,24 +19,8 @@ brew install autoconf automake apple-gcc42
 brew install libksba
 
 # Install some useful formulas
-brew install git macvim
-
-######################################
-#-- Install RVM and Get Ruby Setup --#
-######################################
-
-clear
-echo Locating Stable RVM...
-\curl -L https://get.rvm.io | bash -s stable --ruby
-
-# Source the RVM file after the user has gone through every step to every rc file ie bashrc zshrc etc
-echo ~/.*hrc >> [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# RVM requires this package for OSX
-rvm pkg install openssl
-
-# Install the latest version of ruby
-rvm install ruby 1.9.3
+# Note that ruby-build needs rbenv to run
+brew install git rbenv ruby-build
 
 ###############################################
 #-- Set up Git, Github Auth and Git Aliases --#
