@@ -22,6 +22,11 @@ brew install libksba
 # Note that ruby-build needs rbenv to run
 brew install git rbenv ruby-build
 
+####################
+#-- Install Ruby --#
+####################
+
+rbenv install ruby-1.9.3-p327 # Latest Stable verison of Ruby 1.9.3
 ###############################################
 #-- Set up Git, Github Auth and Git Aliases --#
 ###############################################
