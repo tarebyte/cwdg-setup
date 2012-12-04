@@ -32,7 +32,7 @@ Please note that this is a for Mac OSX only!!!! If you try to run this on any ot
 If you are running a machine with OSX, please install XCode through the App Store and Install the Command Line Tools.
 
 ####A Github Account
-Please sign up for Github, it's free and it's awesome
+Please sign up for [Github](http://www.github.com), it's free and it's awesome
 
 ###Clone the Repo
 
@@ -52,10 +52,10 @@ And that's it, the rest of the installation will take care of it and that's it, 
 
 ##What this installs / sets up
 
-* [RVM](https://rvm.io/)
 * [HomeBrew](http://mxcl.github.com/homebrew/)
+  * Ruby Version Manager
+    * [Rbenv](https://github.com/sstephenson/rbenv)
+    * [Ruby-Build](https://github.com/sstephenson/ruby-build)
   * Version Control
     * [Git](http://git-scm.com/)
-  * Editors
-    * [MacVim](http://code.google.com/p/macvim/)
-* Http Authentication for [Github](https://help.github.com/articles/set-up-git)
+* [Http Authentication for Github](https://help.github.com/articles/set-up-git)
