@@ -9,14 +9,8 @@ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 #-- Set up Homebrew and install useful formulas --#
 echo Calling the Doctor...
 brew doctor
-
-# Meet RVM requirements for OSX 
 brew update
 brew tap homebrew/dupes
-brew install autoconf automake apple-gcc42
-
-# Requirement for ruby 1.9.3
-brew install libksba
 
 # Install some useful formulas
 # Note that ruby-build needs rbenv to run
@@ -27,6 +21,9 @@ brew install git rbenv ruby-build
 ####################
 
 rbenv install ruby-1.9.3-p327 # Latest Stable verison of Ruby 1.9.3
+rbenv rehash # Needs to be done everytime you install a binary
+rbenv global 1.9.3-p327 # Set it to be default Ruby
+
 ###############################################
 #-- Set up Git, Github Auth and Git Aliases --#
 ###############################################
