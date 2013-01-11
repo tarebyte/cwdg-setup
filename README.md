@@ -52,10 +52,8 @@ And that's it, the rest of the installation will take care of it and that's it, 
 
 ##What this installs / sets up
 
-* [HomeBrew](http://mxcl.github.com/homebrew/)
-  * Ruby Version Manager
-    * [Rbenv](https://github.com/sstephenson/rbenv)
-    * [Ruby-Build](https://github.com/sstephenson/ruby-build)
-  * Version Control
-    * [Git](http://git-scm.com/)
-* [Http Authentication for Github](https://help.github.com/articles/set-up-git)
+- [HomeBrew](http://mxcl.github.com/homebrew/)
+  * [Rbenv](https://github.com/sstephenson/rbenv)
+  * [Ruby-Build](https://github.com/sstephenson/ruby-build)
+  * [Git](http://git-scm.com/)
+- [Http Authentication for Github](https://help.github.com/articles/set-up-git)
