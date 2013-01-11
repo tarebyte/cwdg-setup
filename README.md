@@ -6,7 +6,7 @@ Beginner Setup for the Collegiate Web Developers
     <td> Author: </td>
     <td> Mark Tareshawty </td>
   </tr>
-  
+
   <tr>
     <td> Email: </td>
     <td> <a href="mailto:tarebyte@gmail.com">tarebyte@gmail.com </td>
@@ -34,9 +34,9 @@ If you are running a machine with OSX, please install XCode through the App Stor
 ####A Github Account
 Please sign up for [Github](http://www.github.com), it's free and it's awesome
 
-###Clone the Repo
+###Obtain the Project
 
-You can click on "Clone in Mac" and clone by using the new [GitHub App](http://mac.github.com/).
+Since this project is assuming you don't have Git make just download it as a zip.
 
 ###Installing
 
