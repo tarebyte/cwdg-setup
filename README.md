@@ -52,8 +52,14 @@ And that's it, the rest of the installation will take care of it and that's it, 
 
 ##What this installs / sets up
 
+####For OSX
 - [HomeBrew](http://mxcl.github.com/homebrew/)
   * [Rbenv](https://github.com/sstephenson/rbenv)
   * [Ruby-Build](https://github.com/sstephenson/ruby-build)
   * [Git](http://git-scm.com/)
 - [Http Authentication for Github](https://help.github.com/articles/set-up-git)
+
+##ToDo
+- Add port for linux
+  * Make it non distro specific if possible
+- Set coding standard for project, I'm thinking [TomDoc](http://tomdoc.org/)
