@@ -3,14 +3,20 @@
 ########################
 
 clear
-echo Retrieving HomeBrew...
-ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
-#-- Set up Homebrew and install useful formulas --#
-echo Calling the Doctor...
-brew doctor
-brew update
-brew tap homebrew/dupes
+# Check for Homebrew
+if test ! $(which brew)
+then
+
+  echo Retrieving HomeBrew...
+  ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+
+  #-- Set up Homebrew and install useful formulas --#
+  echo Calling the Doctor...
+  brew doctor
+  brew update
+  brew tap homebrew/dupes
+fi
 
 # Install some useful formulas
 # Note that ruby-build needs rbenv to run
