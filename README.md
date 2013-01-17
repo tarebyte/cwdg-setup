@@ -46,7 +46,7 @@ Open the directory of the project:
 
 Then run:
 
-    ./install.sh
+    ./setup
 
 And that's it, the rest of the installation will take care of it and that's it, the rest of the installation will take care of itself!
 
